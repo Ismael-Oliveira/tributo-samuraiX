@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background: rgb(228, 222, 222);
+}
+
+header{
+    background: black;
+    height: auto;
+    width: 900px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    background: #CCC;
+}
+
+.top{
+    width: 900px;
+    max-width: 900px;
+    background: #000;
+    height: 80px;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    border-bottom: 1px solid #999;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.professions{
+    font-size: 13px;
+}
+
+.img-main{
+    width: 300px;
+    height: 400px;
+    margin-top: -30px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    background: white;
+}
+
+.img{
+    width: 280px;
+    height: 380px;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: url('../imgs/Kenshin.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.history{
+    margin: 20px 0;
+    max-width: 900px;
+}
+
+.awards{
+    display: flex;
+}
+
+.aw{
+    border-radius: 10px;
+    border: 1px solid rgb(248, 87, 87);
+    margin-bottom: 40px;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.aw-1{
+    border-radius: 10px;
+    border: 1px solid rgb(107, 219, 103);
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer{
+    background: #000;
+    margin-top: 20px;
+    width: 900px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    line-height: 50px 
+}
